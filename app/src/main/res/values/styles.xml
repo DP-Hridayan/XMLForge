@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+<style
+        name="XMLForge.DynamicColors"
+        parent="Theme.Material3.DynamicColors.DayNight.NoActionBar"
+        tools:ignore="PrivateResource">
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="colorSurface">@color/m3_ref_palette_dynamic_neutral_variant6</item>
+        <item name="colorSurfaceContainerLowest">@color/m3_ref_palette_dynamic_neutral_variant4</item>
+        <item name="colorSurfaceContainerHigh">@color/m3_ref_palette_dynamic_neutral12</item>
+        <item name="colorSurfaceContainer">@color/m3_ref_palette_dynamic_neutral10</item>
+        <item name="colorPrimaryContainer">@color/m3_ref_palette_dynamic_primary30</item>
+        <item name="colorOnPrimaryContainer">@color/m3_ref_palette_dynamic_primary90</item>
+        <item name="colorTertiaryContainer">@color/m3_ref_palette_dynamic_tertiary30</item>
+        <item name="colorOnTertiaryContainer">@color/m3_ref_palette_dynamic_tertiary90</item>
+
+    </style>
+    
+    <style
+        name="ExpandedToolbarTitle"
+        parent="XMLForge.DynamicColors">
+        <item name="android:textSize">33.0sp</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:padding">1.0dip</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:alpha">0.95</item>
+    </style>
+
+    <style
+        name="ItemSubTitle"
+        parent="XMLForge.DynamicColors">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelLarge</item>
+    </style>
+    
+    <style
+        name="ItemDescription"
+        parent="XMLForge.DynamicColors">
+        <item name="android:textAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+
+    <style
+        name="ItemDescriptionBold"
+        parent="XMLForge.DynamicColors">
+        <item name="android:textAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:alpha">0.9</item>
+    </style>
+    
+</resources>

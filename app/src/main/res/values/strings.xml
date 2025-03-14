@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XMLForge</string>
+    <string name="output">Output</string>
+    <string name="input_xml_here">Input XML here</string>
+    <string name="copy">Copy</string>
+    <string name="format">Format</string>
+</resources>

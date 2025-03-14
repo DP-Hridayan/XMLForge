@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/build.gradle",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 301,
+          "line": 9
+        },
+        "start": {
+          "column": 1,
+          "index": 301,
+          "line": 9
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/XMLForge/build.gradle"
+}
