@@ -80,6 +80,10 @@ android:text = "Click Me"
   <a href="https://github.com/DP-Hridayan/aShellYou/releases"><img src="https://img.shields.io/github/downloads/DP-Hridayan/XMLForge/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="Downloads"></a>
 </div>
 
+## Fuel my code with a coffee ☕️
+ <div align="center">
+  <a href="https://www.buymeacoffee.com/Hridayan"><img src="https://github.com/DP-Hridayan/aShellYou/assets/157479796/d0ad79e4-a19e-4686-9f30-dc1cb1e85168" width="49%" alt="Buy Me a Coffee" /></a>
+ </div>
 ---
 
 ##  Tech Stack  
