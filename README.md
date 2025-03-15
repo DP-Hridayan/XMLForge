@@ -73,6 +73,15 @@ android:text = "Click Me"
 
 </LinearLayout>
 ```
+---
+
+<div align="center">
+  <a href="https://github.com/DP-Hridayan/aShellYou"><img alt="Repo Size" src="https://img.shields.io/github/repo-size/DP-Hridayan/XMLForge?style=for-the-badge"></a>
+  <a href="https://github.com/DP-Hridayan/aShellYou/releases"><img src="https://img.shields.io/github/downloads/DP-Hridayan/XMLForge/total?color=%233DDC84&logo=android&logoColor=%23fff&style=for-the-badge" alt="Downloads"></a>
+</div>
+
+---
+
 ## 🔧 Tech Stack  
 - **Language:** Java  
 - **Parsing:** DOM Parser  
