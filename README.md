@@ -1,24 +1,24 @@
-# XMLForge 🚀  
+# XMLForge   
 *A simple and powerful XML formatter & attribute reordering tool for Android.*
 
 <div align="center">
   <img src="assets/banner.png" width="100%" alt="Banner">
 </div>
 
-## 📌 Features  
+##  Features  
 - ✔️ Formats XML with proper indentation  
 - ✔️ Reorders attributes in a structured way  
 - ✔️ Supports Android XML files  
 - ✔️ One-click copy to clipboard  
 - ✔️ Simple and intuitive UI  
 
-## 🛠️ How It Works  
+##  How It Works?  
 1. Paste or load your XML content.  
 2. Tap the **Format** button to clean up the structure.  
 3. View the formatted output with attributes ordered correctly.  
 4. Copy the formatted XML with a single tap.  
 
-## 📜 Example Input & Output  
+##  Example Input & Output  
 ### 🔹 Input XML:  
 ```xml
 <LinearLayout android:layout_height= "match_parent" 
@@ -44,7 +44,7 @@ android:text = "Click Me"
   </LinearLayout>
 ```
 
-### 🔹Output XML:
+### Output XML:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <LinearLayout
@@ -82,9 +82,9 @@ android:text = "Click Me"
 
 ---
 
-## 🔧 Tech Stack  
+##  Tech Stack  
 - **Language:** Java  
 - **Parsing:** DOM Parser  
 
-## ❔ Why this app?
+##  Why this app?
 - This app is for people like me who likes to code a lot on their phone.
