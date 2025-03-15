@@ -86,7 +86,6 @@ public class XmlFormatter {
     return formattedXml;
   }
 
-
   private static boolean validateXmlStructure(String originalXml, String formattedXml) {
     try {
       Document originalDoc = parseXml(originalXml);

@@ -1,4 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="6" by="lint 8.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.2.1)" variant="fatal" version="8.2.1">
+<issues format="6" by="lint 8.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.2.1)" variant="all" version="8.2.1">
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 24 (current min is 21): `java.util.List#sort`"
+        errorLine1="    priorityAttrs.sort("
+        errorLine2="                  ~~~~">
+        <location
+            file="src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java"
+            line="38"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 24 (current min is 21): `java.util.Comparator#comparingInt`"
+        errorLine1="        Comparator.comparingInt(attr -> Const.ATTR_PRIORITY_ORDER.indexOf(attr.getNodeName())));"
+        errorLine2="                   ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java"
+            line="39"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 24 (current min is 21): `java.util.Comparator#comparing`"
+        errorLine1="    layoutAttrs.sort(Comparator.comparing(Node::getNodeName));"
+        errorLine2="                                ~~~~~~~~~">
+        <location
+            file="src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java"
+            line="40"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 24 (current min is 21): `java.util.List#sort`"
+        errorLine1="    layoutAttrs.sort(Comparator.comparing(Node::getNodeName));"
+        errorLine2="                ~~~~">
+        <location
+            file="src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java"
+            line="40"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 24 (current min is 21): `java.util.Comparator#comparing`"
+        errorLine1="    paddingAttrs.sort(Comparator.comparing(Node::getNodeName));"
+        errorLine2="                                 ~~~~~~~~~">
+        <location
+            file="src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java"
+            line="41"
+            column="34"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 24 (current min is 21): `java.util.List#sort`"
+        errorLine1="    paddingAttrs.sort(Comparator.comparing(Node::getNodeName));"
+        errorLine2="                 ~~~~">
+        <location
+            file="src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java"
+            line="41"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 24 (current min is 21): `java.util.Comparator#comparing`"
+        errorLine1="    otherAttrs.sort(Comparator.comparing(Node::getNodeName));"
+        errorLine2="                               ~~~~~~~~~">
+        <location
+            file="src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java"
+            line="42"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="Call requires API level 24 (current min is 21): `java.util.List#sort`"
+        errorLine1="    otherAttrs.sort(Comparator.comparing(Node::getNodeName));"
+        errorLine2="               ~~~~">
+        <location
+            file="src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java"
+            line="42"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        message="The resource `@string/copy` is marked as private in androidx.preference:preference:1.2.1"
+        errorLine1="        android:text=&quot;@string/copy&quot;"
+        errorLine2="                      ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_home.xml"
+            line="94"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="PrivateResource"
+        message="Overriding `@string/copy` which is marked as private in androidx.preference:preference:1.2.1. If deliberate, use tools:override=&quot;true&quot;, otherwise pick a different name."
+        errorLine1="    &lt;string name=&quot;copy&quot;>Copy&lt;/string>"
+        errorLine2="                  ~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="6"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `?attr/colorSurface` with a theme that also paints a background (inferred theme is `@style/XMLForge.DynamicColors`)"
+        errorLine1="    android:background=&quot;?attr/colorSurface&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="6"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `?attr/colorSurface` with a theme that also paints a background (inferred theme is `@style/XMLForge.DynamicColors`)"
+        errorLine1="    android:background=&quot;?attr/colorSurface&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/fragment_home.xml"
+            line="8"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.xml.backup_rules` appears to be unused"
+        errorLine1="&lt;full-backup-content>"
+        errorLine2="^">
+        <location
+            file="src/main/res/xml/backup_rules.xml"
+            line="8"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.xml.data_extraction_rules` appears to be unused"
+        errorLine1="&lt;data-extraction-rules>"
+        errorLine2="^">
+        <location
+            file="src/main/res/xml/data_extraction_rules.xml"
+            line="6"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_launcher_background` appears to be unused"
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable/ic_launcher_background.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_launcher_foreground` appears to be unused"
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable-v24/ic_launcher_foreground.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.mipmap.ic_launcher_round` appears to be unused"
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.style.ItemDescriptionBold` appears to be unused"
+        errorLine1="        name=&quot;ItemDescriptionBold&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/styles.xml"
+            line="42"
+            column="9"/>
+    </issue>
 
 </issues>
