@@ -10,8 +10,9 @@ public class ClipboardHelper {
     ClipboardManager clipboard =
         (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
     if (clipboard != null) {
-      String fixedText = text.replace("\n", "\r\n");
-      ClipData clip = ClipData.newPlainText("Formatted XML", fixedText);
+      // Ensure consistent line breaks for external applications
+      text = text.replaceAll("\r\n", "\n"); // Normalize line breaks to \n
+      ClipData clip = ClipData.newPlainText("Formatted XML", text);
       clipboard.setPrimaryClip(clip);
     }
   }

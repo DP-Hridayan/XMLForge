@@ -1,32 +1,17 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/java/in/hridayan/xmlforge/fragments/HomeFragment.java",
+      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/java/in/hridayan/xmlforge/utils/XmlFormatter.java",
       "selection": {
         "end": {
-          "column": 27,
-          "index": 577,
-          "line": 18
+          "column": 46,
+          "index": 3125,
+          "line": 76
         },
         "start": {
-          "column": 27,
-          "index": 577,
-          "line": 18
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/res/layout/activity_main.xml",
-      "selection": {
-        "end": {
-          "column": 43,
-          "index": 200,
-          "line": 4
-        },
-        "start": {
-          "column": 43,
-          "index": 200,
-          "line": 4
+          "column": 46,
+          "index": 3125,
+          "line": 76
         }
       }
     },
@@ -35,91 +20,16 @@
       "selection": {
         "end": {
           "column": 0,
-          "index": 0,
-          "line": 0
+          "index": 4932,
+          "line": 129
         },
         "start": {
           "column": 0,
-          "index": 0,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/java/in/hridayan/xmlforge/activities/MainActivity.java",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/java/in/hridayan/xmlforge/utils/XmlFormatter.java",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/java/in/hridayan/xmlforge/utils/XmlAttributeSorter.java",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        },
-        "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/java/in/hridayan/xmlforge/utils/ClipboardHelper.java",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 36,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "index": 36,
-          "line": 1
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/java/in/hridayan/xmlforge/config/Const.java",
-      "selection": {
-        "end": {
-          "column": 43,
-          "index": 640,
-          "line": 19
-        },
-        "start": {
-          "column": 43,
-          "index": 640,
-          "line": 19
+          "index": 4932,
+          "line": 129
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/java/in/hridayan/xmlforge/fragments/HomeFragment.java"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/XMLForge/app/src/main/res/layout/fragment_home.xml"
 }
