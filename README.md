@@ -19,7 +19,7 @@
 4. Copy the formatted XML with a single tap.  
 
 ##  Example Input & Output  
-### 🔹 Input XML:  
+###  Input XML:  
 ```xml
 <LinearLayout android:layout_height= "match_parent" 
 android:layout_width="match_parent"
