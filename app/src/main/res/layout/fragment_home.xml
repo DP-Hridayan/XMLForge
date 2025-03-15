@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout 
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -10,120 +10,120 @@
     android:clipToPadding="false"
     android:fitsSystemWindows="true">
 
-<com.google.android.material.textview.MaterialTextView 
-    android:id="@+id/app_name"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:text="@string/app_name"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="@id/guidelineAppNameText"
-    style="@style/ExpandedToolbarTitle"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidelineAppNameText"
+        style="@style/ExpandedToolbarTitle" />
 
-<com.google.android.material.textfield.TextInputLayout 
-    android:id="@+id/inputLayout"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginVertical="20dp"
-    android:padding="5dp"
-    app:endIconDrawable="@drawable/ic_cross"
-    app:endIconMode="custom"
-    app:endIconTint="?attr/colorPrimary"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/app_name"
-    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:padding="5dp"
+        app:endIconDrawable="@drawable/ic_cross"
+        app:endIconMode="custom"
+        app:endIconTint="?attr/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-<com.google.android.material.textfield.TextInputEditText 
-    android:id="@+id/inputXml"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingHorizontal="10dp"
-    android:cursorVisible="true"
-    android:gravity="top|start"
-    android:hint="@string/input_xml_here"
-    android:imeOptions="actionNone"
-    android:inputType="textMultiLine"
-    android:maxLines="4"
-    android:minLines="4"
-    android:overScrollMode="always"
-    android:scrollbarStyle="insideInset"
-    android:scrollbars="vertical"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputXml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:cursorVisible="true"
+            android:gravity="top|start"
+            android:hint="@string/input_xml_here"
+            android:imeOptions="actionNone"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:minLines="4"
+            android:overScrollMode="always"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical" />
 
-</com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
 
-<com.google.android.material.textview.MaterialTextView 
-    android:id="@+id/outputTitle"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginVertical="10dp"
-    android:text="@string/output"
-    android:textIsSelectable="true"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/inputLayout"
-    style="@style/ItemSubTitle"/>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/outputTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="@string/output"
+        android:textIsSelectable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputLayout"
+        style="@style/ItemSubTitle" />
 
-<com.google.android.material.card.MaterialCardView 
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_marginVertical="20dp"
-    app:cardBackgroundColor="?attr/colorSurfaceContainerLowest"
-    app:cardCornerRadius="25dp"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/outputTitle"
-    app:strokeWidth="0dp">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginVertical="20dp"
+        app:cardBackgroundColor="?attr/colorSurfaceContainerLowest"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/outputTitle"
+        app:strokeWidth="0dp">
 
-<com.google.android.material.textview.MaterialTextView 
-    android:id="@+id/outputXml"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="8dp"
-    android:gravity="top"
-    android:textIsSelectable="true"
-    style="@style/ItemDescription"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/outputXml"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="top"
+            android:textIsSelectable="true"
+            style="@style/ItemDescription" />
 
-</com.google.android.material.card.MaterialCardView>
+    </com.google.android.material.card.MaterialCardView>
 
-<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton 
-    android:id="@+id/copyButton"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="10dp"
-    android:text="@string/copy"
-    app:icon="@drawable/ic_copy"
-    app:layout_constraintBottom_toTopOf="@id/formatButton"
-    app:layout_constraintEnd_toEndOf="parent"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/copyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/copy"
+        app:icon="@drawable/ic_copy"
+        app:layout_constraintBottom_toTopOf="@id/formatButton"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton 
-    android:id="@+id/formatButton"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/format"
-    app:icon="@drawable/ic_format"
-    app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
-    app:layout_constraintEnd_toEndOf="parent"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/formatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/format"
+        app:icon="@drawable/ic_format"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-<androidx.constraintlayout.widget.Guideline 
-    android:id="@+id/guidelineAppNameText"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    app:layout_constraintGuide_percent="0.12"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineAppNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.12" />
 
-<androidx.constraintlayout.widget.Guideline 
-    android:id="@+id/guidelineOutputLayout"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    app:layout_constraintGuide_percent="0.24"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineOutputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.24" />
 
-<androidx.constraintlayout.widget.Guideline 
-    android:id="@+id/guidelineBottom"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    app:layout_constraintGuide_percent="0.95"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

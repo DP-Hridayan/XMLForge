@@ -62,8 +62,7 @@ public class XmlFormatter {
     formattedXml = formattedXml.replaceAll("(<\\?xml[^>]+\\?>)(\\s*<\\?xml[^>]+\\?>)+", "$1");
 
     // Ensure attributes inside a tag are aligned properly
-    formattedXml =
-        formattedXml.replaceAll("(<[^!?/>\\s]+)\\s+", "$1 "); // Fixes first space after <TextView
+    formattedXml = formattedXml.replaceAll("(<[^!?/>\\s]+)\\s+", "$1 ");
 
     // Indent attributes properly (but avoid breaking self-closing tags)
     formattedXml = formattedXml.replaceAll("(\\S+?=\"[^\"]+\")\\s*", "\n    $1");
@@ -74,13 +73,19 @@ public class XmlFormatter {
     // Ensure a newline after '>', but keep '/>' on the same line
     formattedXml = formattedXml.replaceAll("([^/])>", "$1>\n");
     formattedXml = formattedXml.replaceAll("/>", "/>\n");
+
     // Ensure the XML declaration is always in one line with no extra spaces or newlines
     formattedXml =
         formattedXml.replaceAll(
             "\\s*<\\?xml\\s+version=\"1.0\"\\s+encoding=\"UTF-8\"\\s*\\?>\\s*",
             "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+
+    // **Offset lines under a tag by increasing indentation**
+    formattedXml = formattedXml.replaceAll("(?m)^([ \t]*<[^/?!>]+?>)\\n([ \t]*<)", "$1\n    $2");
+
     return formattedXml;
   }
+
 
   private static boolean validateXmlStructure(String originalXml, String formattedXml) {
     try {

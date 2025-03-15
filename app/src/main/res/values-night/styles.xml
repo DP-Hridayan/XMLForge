@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- Base application theme. -->
-  <style name="Base.AppTheme" parent="Theme.Material3.DayNight">
-    <!-- Customize your theme here. -->
-    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-  </style>
+<style
+        name="XMLForge.DynamicColors"
+        parent="Theme.Material3.DynamicColors.DayNight.NoActionBar"
+        tools:ignore="PrivateResource">
+        <item name="colorSurface">@color/m3_ref_palette_dynamic_neutral_variant6</item>
+        <item name="colorSurfaceContainerLowest">@color/m3_ref_palette_dynamic_neutral_variant4</item>
+        <item name="colorSurfaceContainerHigh">@color/m3_ref_palette_dynamic_neutral12</item>
+        <item name="colorSurfaceContainer">@color/m3_ref_palette_dynamic_neutral10</item>
+        <item name="colorPrimaryContainer">@color/m3_ref_palette_dynamic_primary30</item>
+        <item name="colorOnPrimaryContainer">@color/m3_ref_palette_dynamic_primary90</item>
+        <item name="colorTertiaryContainer">@color/m3_ref_palette_dynamic_tertiary30</item>
+        <item name="colorOnTertiaryContainer">@color/m3_ref_palette_dynamic_tertiary90</item>
 
-  <style name="AppTheme" parent="Base.AppTheme" />
+    </style>
+
 </resources>
