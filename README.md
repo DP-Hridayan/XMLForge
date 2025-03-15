@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/banner.png" width="100%" alt="Banner">
+</div>
+
 # XMLForge 🚀  
 *A simple and powerful XML formatter & attribute reordering tool for Android.*
 
