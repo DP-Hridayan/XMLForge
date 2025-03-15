@@ -84,7 +84,6 @@ android:text = "Click Me"
  <div align="center">
   <a href="https://www.buymeacoffee.com/Hridayan"><img src="https://github.com/DP-Hridayan/aShellYou/assets/157479796/d0ad79e4-a19e-4686-9f30-dc1cb1e85168" width="49%" alt="Buy Me a Coffee" /></a>
  </div>
----
 
 ##  Tech Stack  
 - **Language:** Java  
