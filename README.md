@@ -39,7 +39,8 @@ android:text = "Click Me"
 
   </LinearLayout>
 ```
-###🔹Output XML:
+
+### 🔹Output XML:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <LinearLayout
