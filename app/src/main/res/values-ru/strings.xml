@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XMLForge</string>
+    <string name="output">Вывод</string>
+    <string name="input_xml_here">Введите XML здесь</string>
+    <string name="copy">Копировать</string>
+    <string name="format">Форматировать</string>
+</resources>
