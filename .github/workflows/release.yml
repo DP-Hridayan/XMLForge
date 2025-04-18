@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*"  # Runs when a tag like "v6.0.1" is pushed
+      workflow_dispatch:
 
 jobs:
   build:
