@@ -5,4 +5,9 @@
     <string name="input_xml_here">Введите XML здесь</string>
     <string name="copy">Копировать</string>
     <string name="format">Форматировать</string>
+    <string name="toast_enter_xml">Пожалуйста введите XML</string>
+    <string name="toast_format_failed">Не удалось форматировать XML!</string>
+    <string name="toast_no_xml_to_copy">Нет форматированного XML для копирования</string>
+    <string name="toast_copied">Скопировано в буфер обмена</string>
+    <string name="toast_cleared">Очищено</string>
 </resources>
