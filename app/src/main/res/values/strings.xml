@@ -5,4 +5,9 @@
     <string name="input_xml_here">Input XML here</string>
     <string name="copy">Copy</string>
     <string name="format">Format</string>
+    <string name="toast_enter_xml">Please enter XML</string>
+    <string name="toast_format_failed">XML formatting failed!</string>
+    <string name="toast_no_xml_to_copy">No formatted XML to copy</string>
+    <string name="toast_copied">Copied to clipboard</string>
+    <string name="toast_cleared">Cleared</string>
 </resources>

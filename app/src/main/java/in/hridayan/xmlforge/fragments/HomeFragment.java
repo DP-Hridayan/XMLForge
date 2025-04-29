@@ -1,5 +1,6 @@
 package in.hridayan.xmlforge.fragments;
 
+import in.hridayan.xmlforge.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -38,7 +39,7 @@ public class HomeFragment extends Fragment {
     private void formatXml() {
         String input = binding.inputXml.getText().toString().trim();
         if (input.isEmpty()) {
-            showToast("Please enter XML");
+            showToast(getString(R.string.toast_enter_xml));
             return;
         }
 
@@ -46,25 +47,25 @@ public class HomeFragment extends Fragment {
         if (formattedXml != null) {
             binding.outputXml.setText(formattedXml);
         } else {
-            showToast("XML formatting failed!");
+            showToast(getString(R.string.toast_format_failed));
         }
     }
 
     private void copyFormattedXml() {
         String formattedText = binding.outputXml.getText().toString();
         if (formattedText.isEmpty()) {
-            showToast("No formatted XML to copy");
+            showToast(getString(R.string.toast_no_xml_to_copy));
             return;
         }
 
         ClipboardHelper.copyToClipboard(requireContext(), formattedText);
-        showToast("Copied to clipboard");
+        showToast(getString(R.string.toast_copied));
     }
 
     private void clearFields() {
         binding.inputXml.setText("");
         binding.outputXml.setText("");
-        showToast("Cleared");
+        showToast(getString(R.string.toast_cleared));
     }
 
     private void showToast(String message) {
